@@ -1,0 +1,26 @@
+{
+    "animations": {
+        "setup": [
+            { "name": "forward", "keys": ["ArrowUp", "KeyW"] },
+            { "name": "backward", "keys": ["ArrowDown", "KeyS"] },
+            { "name": "leftward", "keys": ["ArrowLeft", "KeyA"] },
+            { "name": "rightward", "keys": ["ArrowRight", "KeyD"] },
+            { "name": "jump", "keys": ["Space"] },
+            { "name": "run", "keys": ["Shift"] },
+            { "name": "action1", "keys": ["1"] }
+        ],
+        "types" : ["idle","walk", "run", "dance"],
+        "clips":{
+            "idle": "armature_idle03",
+            "walk": "armature_walk",
+            "run": "armature_run",
+            "jump": "armature_dance01",
+            "jumpIdle": "armature_dance01", 
+            "jumpLand": "armature_dance01",
+            "fall": "armature_idle03", 
+            "action1": "armature_dance01"
+        },
+        "path":"assets_3D/character/animations_male",
+        "extension":"glb"   
+    }
+}

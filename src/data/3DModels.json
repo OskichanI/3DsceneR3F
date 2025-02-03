@@ -1,0 +1,314 @@
+{
+  "skyBox": {
+    "id": "environmentMapTexture",
+    "room": "all",
+    "type": "cubeTexture",
+    "path": [
+      "assets/media/skyBox/sky4/0_left_px.jpg",
+      "assets/media/skyBox/sky4/1_right_nx.jpg",
+      "assets/media/skyBox/sky4/2_up_py.jpg",
+      "assets/media/skyBox/sky4/3_down_ny.jpg",
+      "assets/media/skyBox/sky4/4_back_pz.jpg",
+      "assets/media/skyBox/sky4/5_front_nz.jpg"
+    ]
+  },
+  "city": [
+    {
+      "name": "edificiosPadel",
+      "room": "city",
+      "type": "gltfModel",
+      "path": ["./assets_3D/00_city/city.glb"],
+      "visible": true
+    },
+    {
+      "name": "detallesPadel",
+      "room": "city",
+      "type": "gltfModel",
+      "path": ["./assets_3D/00_city/detallesPadel.glb"],
+      "visible": false
+    },
+    {
+      "name": "sueloPadel",
+      "room": "city",
+      "type": "gltfModel",
+      "path": ["./assets_3D/00_city/sueloPadel.glb"],
+      "visible": false
+    },
+    {
+      "name": "cristales",
+      "room": "city",
+      "type": "gltfModel",
+      "path": ["./assets_3D/00_city/cristalesPadel.glb"],
+      "visible": false
+    },
+    {
+      "name": "rejasPadel",
+      "room": "city",
+      "type": "gltfModel",
+      "path": ["./assets_3D/00_city/rejasPadel.glb"],
+      "visible": false
+    },
+    {
+      "name": "portalesPadel",
+      "room": "city",
+      "type": "gltfModel",
+      "path": ["./assets_3D/00_city/portalesPadel.glb"],
+      "visible": false
+    },
+    {
+      "name": "navmeshPadel",
+      "room": "city",
+      "type": "gltfModel",
+      "path": ["./assets_3D/00_city/navmeshPadel.glb"],
+      "visible": false
+    }
+  ],
+  "lounge": [
+    {
+      "name": "sueloLounge",
+      "room": "lounge",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/01_lounge/sueloLounge.glb,"]
+    },
+    {
+      "name": "paredLounge",
+      "room": "lounge",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/01_lounge/paredLounge.glb"]
+    },
+    {
+      "name": "techoLounge",
+      "room": "lounge",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/01_lounge/techoLounge.glb"]
+    },
+    {
+      "name": "detallesLounge",
+      "room": "lounge",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/01_lounge/detallesLounge.glb"]
+    },
+    {
+      "name": "cristalLounge",
+      "room": "lounge",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/01_lounge/cristalLounge.glb"]
+    },
+    {
+      "name": "editableSuelosLounge",
+      "room": "lounge",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/01_lounge/editableSuelosLounge.glb"],
+      "raycaster": true,
+      "link": "floors"
+    },
+    {
+      "name": "editableCuadrosLounge",
+      "room": "lounge",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/01_lounge/editableCuadrosLounge.glb"],
+      "raycaster": true,
+      "link": "paintings"
+    },
+    {
+      "name": "editablePistasLounge",
+      "room": "lounge",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/01_lounge/editablePistasLounge.glb"],
+      "raycaster": true,
+      "link": "courts"
+    },
+    {
+      "name": "editableTrofeosLounge",
+      "room": "lounge",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/01_lounge/editableTrofeosLounge.glb"],
+      "raycaster": true,
+      "link": "trophies"
+    },
+    {
+      "name": "navmeshLounge",
+      "room": "lounge",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/01_lounge/navmeshLounge.glb"]
+    }
+  ],
+  "auditorium": [
+    {
+      "name": "detallesAuditorioPadel",
+      "room": "auditorium",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/02_auditorium/detallesAuditorioPadel.glb"]
+    },
+    {
+      "name": "paredAuditorioPadel",
+      "room": "auditorium",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/02_auditorium/paredAuditorioPadel.glb"]
+    },
+    {
+      "name": "sueloAuditorioPadel",
+      "room": "auditorium",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/02_auditorium/sueloAuditorioPadel.glb"]
+    },
+    {
+      "name": "techoAuditorioPadel",
+      "room": "auditorium",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/02_auditorium/techoAuditorioPadel.glb"]
+    },
+    {
+      "name": "navmeshAuditorioPadel",
+      "room": "auditorium",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/02_auditorium/navmeshAuditorioPadel.glb"]
+    }
+  ],
+  "hallOfFame": [
+    {
+      "name": "sueloHallOfFame",
+      "room": "hallOfFame",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/03_hallOfFame/sueloHallOfFame.glb"]
+    },
+    {
+      "name": "detallesHallOfFame",
+      "room": "hallOfFame",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/03_hallOfFame/detallesHallOfFame.glb"]
+    },
+    {
+      "name": "estatuasHallOfFame",
+      "room": "hallOfFame",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/03_hallOfFame/estatuasHallOfFame.glb"]
+    },
+    {
+      "name": "navmeshHallOfFame",
+      "room": "hallOfFame",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/03_hallOfFame/navmeshHallOfFame.glb"]
+    }
+  ],
+  "salaArcade": [
+    {
+      "name": "sueloSalaArcade",
+      "room": "arcade",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/04_salaArcade/sueloSalaArcade.glb"]
+    },
+    {
+      "name": "paredSalaArcade",
+      "room": "arcade",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/04_salaArcade/paredSalaArcade.glb"]
+    },
+    {
+      "name": "detallesSalaArcade",
+      "room": "arcade",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/04_salaArcade/detallesSalaArcade.glb"]
+    },
+    {
+      "name": "rejasSalaArcade",
+      "room": "arcade",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/04_salaArcade/rejasSalaArcade.glb"]
+    },
+    {
+      "name": "navmeshSalaArcade",
+      "room": "arcade",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/04_salaArcade/navmeshSalaArcade.glb"]
+    }
+  ],
+  "snp": [
+    {
+      "name": "sueloSNP",
+      "room": "snp",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/05_snp/sueloSNP.glb"]
+    },
+    {
+      "name": "paredSNP",
+      "room": "snp",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/05_snp/paredSNP.glb"]
+    },
+    {
+      "name": "techoSNP",
+      "room": "snp",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/05_snp/techoSNP.glb"]
+    },
+    {
+      "name": "detallesSNP",
+      "room": "snp",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/05_snp/detallesSNP.glb"]
+    },
+    {
+      "name": "navmeshSalaSNP",
+      "room": "snp",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/05_snp/navmeshSalaSNP.glb"]
+    }
+  ],
+  "salaAdidas": [
+    {
+      "name": "salaAdidas",
+      "room": "salaAdidas",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/06_salaAdidas/salaAdidas.glb"]
+    },
+    {
+      "name": "navmeshTiendas",
+      "room": "salaAdidas",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/06_salaAdidas/navmeshSalaAdidas.glb"]
+    }
+  ],
+  "salaBabolat": [
+    {
+      "name": "salaBabolat",
+      "room": "salaBabolat",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/07_salaBabolat/salaBabolat.glb"]
+    },
+    {
+      "name": "navmeshSalaBabolat",
+      "room": "salaBabolat",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/07_salaBabolat/navmeshSalaBabolat.glb"]
+    }
+  ],
+  "salaEstrella": [
+    {
+      "name": "salaEstrella",
+      "room": "salaEstrella",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/08_salaEstrella/salaEstrella.glb"]
+    },
+    {
+      "name": "navmeshSalaEstrella",
+      "room": "salaEstrella",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/08_salaEstrella/navmeshSalaEstrella.glb"]
+    }
+  ],
+  "salaWH": [
+    {
+      "name": "salaWilliams",
+      "room": "salaWH",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/09_salaWH/salaWilliams.glb"]
+    },
+    {
+      "name": "navmeshSalaWilliams",
+      "room": "salaWH",
+      "type": "gltfModel",
+      "path": ["assets/assets_3D/09_salaWH/navmeshSalaWilliams.glb"]
+    }
+  ]
+}
